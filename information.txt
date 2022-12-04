@@ -1,0 +1,26 @@
+Standalone Apis
+Rest Api's
+SPA
+
+https://www.django-rest-framework.org/
+
+HTT PI
+
+APIClient()
+APITestCase
+
+(venv) PS D:\Flask\drf_course\backend> python .\manage.py shell       
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from core.models import Contact
+>>> c = Contact.objects.last()
+>>> c
+<Contact: Bobby Stearman>
+
+Signals
+
+
+what are serializers?
+what are the types of serializers?
+ModelSerializer
